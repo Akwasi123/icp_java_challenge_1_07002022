@@ -1,1 +1,0 @@
-# icp_java_challenge_1_07002022
