@@ -1,0 +1,11 @@
+Item: Malt  Quantity: 4  Price: 6.0
+Item: Beta Malt  Quantity: 50  Price: 4.8
+Item: NutriSnax  Quantity: 100  Price: 3.5
+Item: Sprite(Bottle)  Quantity: 20  Price: 2.5
+Item: Cornflakes  Quantity: 150  Price: 22.0
+Item: Colour Me   Quantity: 40  Price: 15.0
+Item: Snapple  Quantity: 100  Price: 9.5
+Item: Shortbread Biscuits  Quantity: 80  Price: 5.3
+Item: Apricot Jam  Quantity: 15  Price: 10.0
+Item: Energizer Batteries  Quantity: 200  Price: 3.8
+Item: Caramel Cake  Quantity: 5  Price: 30.0
