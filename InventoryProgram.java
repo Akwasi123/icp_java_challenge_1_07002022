@@ -7,18 +7,18 @@ import java.io.PrintWriter;
 
 public class InventoryProgram{
 	// Creating instance variables for the inventory class
-	public static String  itemName;
-	public static int quantity;
-	public static double price;
+	private static String  itemName;
+	private static int quantity;
+	private static double price;
 	
 	//Creating main and backup files
 	static File fileName =new File("essentials.txt");
 	static File fileName2=new File("backup_essentials.txt");
 	
 	public InventoryProgram() {
-		this.itemName = itemName;
-		this.quantity = quantity;
-		this.price = price;
+		itemName = "No Item";
+		quantity = 0;
+		price = 0.00;
 		
 	}
 	
@@ -74,8 +74,9 @@ public class InventoryProgram{
 		try {
 			PrintWriter printWriter = new PrintWriter(new FileOutputStream(fileName,true));
 			PrintWriter printWriter1 = new PrintWriter(new FileOutputStream(fileName2,true));
-			printWriter.println("Item: " +getItemName() + "  Quantity: " +getQuantity()+ "  Price: " +getPrice());
-			printWriter1.println("Item: " +getItemName() + "  Quantity: " +getQuantity()+ "  Price: " +getPrice());
+			printWriter.println("Item: " +getItemName() + "  \nQuantity: " +getQuantity()+ "  \nPrice: " +getPrice()+ "\n" +  "---------------------------------------------------------" );
+			System.out.println();
+			printWriter1.println("Item: " +getItemName() + "  \nQuantity: " +getQuantity()+ "  \nPrice: " +getPrice()+ "\n" +  "---------------------------------------------------------");
 			printWriter.close();
 			printWriter1.close();
 		} catch (IOException e) {
