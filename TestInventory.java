@@ -52,7 +52,7 @@ public class TestInventory{
 		
 		item10.CreateItem();
 		System.out.println("----------------------------------------------------------------");
-		DisplayContent();
+		InventoryProgram.DisplayContent();
 		
 		
 		
